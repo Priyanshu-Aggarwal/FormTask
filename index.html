@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <div class="inner">
+        <div class="upper">
+            <h2>Altitude Air</h2>
+            <p>We promise to ensure that your well-being is taken care of while travelling with us. Boosting top
+                class fleet inventory and a 5 star approval for our in-flight experience. You know you're getting
+                the best from Altitude with no attitude.</p>
+        </div>
+
+        <!-- left div -->
+        <div class="left">
+            <img src="leonardo-yip-rn-NLirHQPY-unsplash.jpg" alt="" />
+        </div>
+
+        <!-- right div -->
+        <div class="right">
+            <buton class="signup">sign in</buton>
+            <h3 id="message"></h3>
+            <h1>Explore & Experience</h1>
+            <h3>Get onto your most comformatble journey yet. All the way up.</h3>
+
+            <form method="post">
+                <input type="text" id="Firstname" placeholder="First Name" maxlength="10" name="FirstName" />
+                <input type="text" id="Lastname" placeholder="Last Name" maxlength="10" name="LastName" /><br>
+                <input type="email" id="Email" class="large" placeholder="Email" name="Email" /><br>
+                <input type="text" id="Username" class="large" placeholder="Username" maxlength="10"
+                    name="Username" /><br>
+                <input type="password" id="Password" class="large" placeholder="Password" maxlength="12"
+                    name="Password" /><br>
+                <input type="password" id="ConfirmPassword" class="large" placeholder="Confirm Password" maxlength="12"
+                    name="ConfirmPassword" /><br>
+
+                <button type="submit" class="submit" onclick="ValidateData(event)"> Get Started</button>
+            </form>
+        </div>
+    </div>
+
+</html>
